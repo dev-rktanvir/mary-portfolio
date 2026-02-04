@@ -1,0 +1,132 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.open-sans-font {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* Global Style Start **********************************************/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Container */
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Primary Button */
+.primary-btn {
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    padding: 18px 36px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Paragraph Text */
+.text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+/* Section Title */
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+/* Small Paragraph Text */
+.small-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+.primary-clr {
+    color: #FD6E0A;
+}
+
+.secondary-clr {
+    color: #181818;
+}
+
+.color {
+    color: #474747;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg-clr {
+    background-color: #FFF8F3;
+}
+
+/* Global style End *************************************************/
+
+/* Hero section */
+.hero {
+    background-image: url('/images/developer.png'), url('/images/header_bg.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position:
+        calc((100% - 1280px) / 2 - 150px) center,
+        calc(100% - ((100% - 1280px)/2) - 100px) bottom;
+}
+
+/* Navbar Style */
+nav {
+    padding-top: 40px;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 20px;
+    gap: 50px;
+}
+
+/* Hero section style */
+
+/* Hero Content */
+.hero-container {
+    padding-top: 45px;
+}
+
+.hero-container h2 {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.hero-container h1 {
+    font-weight: 700;
+    font-size: 85px;
+}
+
+.hero-container p {
+    width: 80%;
+}
+
+.contact-btn {
+    background-color: transparent;
+    border: 1px solid #FD6E0A;
+    margin-left: 30px;
+}

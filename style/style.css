@@ -83,9 +83,7 @@
 .hero {
     background-image: url('/images/developer.png'), url('/images/header_bg.png');
     background-repeat: no-repeat, no-repeat;
-    background-position:
-        calc((100% - 1280px) / 2 - 150px) center,
-        calc(100% - ((100% - 1280px)/2) - 100px) bottom;
+    background-position: calc((100% - 1280px) / 2 - 150px), calc(100% - ((100% - 1280px) / 2 + 98px))bottom
 }
 
 /* Navbar Style */
@@ -129,4 +127,39 @@ nav ul {
     background-color: transparent;
     border: 1px solid #FD6E0A;
     margin-left: 30px;
+}
+
+.mary-img {
+    position: relative;
+    left: 200px;
+    top: 5px
+}
+
+/* About Section */
+
+.about {
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin: 130px auto;
+}
+
+.about-content {
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+.info-title {
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.info-text {
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747;
+    font-weight: 700;
 }

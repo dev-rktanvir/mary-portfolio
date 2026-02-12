@@ -242,3 +242,52 @@ nav ul {
 .resume-box p {
     width: 80%;
 }
+
+/* Footer section */
+.footer-container {
+    gap: 100px;
+    align-items: flex-start;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+.footer-text {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.icon {
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 30px;
+}
+
+.form button {
+    align-self: flex-start;
+}
+
+.input {
+    background-color: white;
+    border-radius: 5px;
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 20px;
+    border: none;
+}
+
+.column {
+    width: 50%;
+}

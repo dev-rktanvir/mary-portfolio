@@ -1,0 +1,10 @@
+/* Responsive for Mobile */
+@media screen and (max-width: 576px) {
+    /* Navbar style */
+    .navItems{
+        display: none;
+    }
+    .menuIcon{
+        display: block;
+    }
+}

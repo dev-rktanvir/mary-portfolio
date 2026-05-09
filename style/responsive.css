@@ -1,10 +1,95 @@
 /* Responsive for Mobile */
 @media screen and (max-width: 576px) {
+    html {
+        font-size: 12px;
+    }
+
+    /* Header style */
+    .header {
+        background-image: none;
+    }
+
     /* Navbar style */
-    .navItems{
+    .navItems {
         display: none;
     }
-    .menuIcon{
+
+    .menuIcon {
         display: block;
+    }
+
+    /* Hero section style */
+    .hero {
+        flex-direction: column-reverse;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+
+    .hero-btn {
+        flex-direction: column;
+    }
+
+    .hero-btn a {
+        width: 250px;
+        justify-content: center;
+
+    }
+
+    .hero-img img {
+        position: static;
+    }
+}
+
+/* Responsive for Medium devices */
+@media screen and (min-width:576px) and (max-width: 992px) {
+
+    /* Header style */
+    .header {
+        background-image: none;
+    }
+
+    /* Hero section style */
+    .hero {
+        flex-direction: column-reverse;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+
+    .hero-btn {
+        flex-direction: column;
+    }
+
+    .hero-btn a {
+        width: 250px;
+        justify-content: center;
+
+    }
+
+    .hero-img img {
+        position: static;
+    }
+}
+
+/* Responsive for large devices */
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+
+    /* Header style */
+    .header {
+        background-position:
+            calc((100% - 1280px) / 2 - 28px) center,
+            calc(100% - ((100% - 1280px)/ 2) - 100px) bottom;
+    }
+
+    /* Hero section style */
+    .hero-content h1 {
+        font-size: 4.3125rem;
+    }
+
+    .hero-img img {
+        left: -20px;
     }
 }

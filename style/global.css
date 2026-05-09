@@ -1,0 +1,30 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Reset Css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global font */
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Global Color */
+:root{
+    --clr-primary: #FD6E0A;
+    --clr-heading: #181818;
+    --clr-sub-heading: #474747;
+    --clr-text: #757575;
+    --clr-bg: #FFF8F3;
+    --clr-white: #ffffff;
+}
+
+img{
+    width: 100%;
+}
+
+/* Common css */

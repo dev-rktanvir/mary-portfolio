@@ -48,6 +48,14 @@
     .about-me{
         padding: 30px;
     }
+
+    /* What i do section */
+    .cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card{
+        text-align: center;
+    }
 }
 
 /* Responsive for Medium devices */
@@ -80,6 +88,11 @@
     .hero-img img {
         position: static;
     }
+
+    /* What i do section */
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 /* Responsive for large devices */
@@ -99,5 +112,10 @@
 
     .hero-img img {
         left: -20px;
+    }
+
+    /* What i do section */
+    .cards{
+        grid-template-columns: repeat(3, 1fr);
     }
 }

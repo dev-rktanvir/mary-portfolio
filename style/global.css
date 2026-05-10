@@ -70,3 +70,8 @@ li{
     color: var(--clr-heading);
     text-align: center;
 }
+.small-text{
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: var(--clr-text);
+}

@@ -1,12 +1,12 @@
 /* Header style */
-.header{
+.header {
     background-color: var(--clr-bg);
     background-image: url("/assets/images/developer.png"), url("/assets/images/header_bg.png");
     background-repeat: no-repeat, no-repeat;
-    background-position: 
-    calc((100% - 1280px) / 2 - 100px) center, 
-    calc(100% - ((100% - 1280px)/ 2) - 100px) bottom;
-     
+    background-position:
+        calc((100% - 1280px) / 2 - 100px) center,
+        calc(100% - ((100% - 1280px)/ 2) - 100px) bottom;
+
 }
 
 /* Navbar style */
@@ -43,9 +43,10 @@
 }
 
 /* Hero Section style */
-.hero{
+.hero {
     padding-top: 50px;
 }
+
 .hero-content h2 {
     font-weight: 600;
     font-size: 2.8125rem;
@@ -79,7 +80,7 @@
     gap: 10px;
 }
 
-.contact-btn{
+.contact-btn {
     background-color: transparent;
     color: var(--clr-primary);
 }
@@ -91,33 +92,74 @@
 }
 
 /* About Me section style */
-.about-me{
+.about-me {
     background-color: var(--clr-bg);
     border-radius: 10px;
     padding: 100px;
 }
-.about-content{
+
+.about-content {
     border: 1px solid var(--clr-heading);
     background-color: var(--clr-white);
     padding: 20px;
     text-align: center;
 }
-.about-text{
+
+.about-text {
     margin: 30px 0;
 }
-.info-box{
+
+.info-box {
     flex-wrap: wrap;
     justify-content: center;
 }
-.info-box h4{
+
+.info-box h4 {
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.875rem;
     color: var(--clr-text);
 }
-.info-box h3{
+
+.info-box h3 {
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.875rem;
     color: var(--clr-sub-heading);
+}
+
+/* What I Do Section style */
+.what-i-do {
+    text-align: center;
+}
+.what-i-do-text{
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    padding: 20px 0;
+}
+
+.card {
+    border-radius: 5px;
+    background-color: var(--clr-white);
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    text-align: left;
+}
+
+.card img {
+    width: auto;
+}
+
+.card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--clr-heading);
+    margin-top: 30px;
+    margin-bottom: 20px;
 }

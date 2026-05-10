@@ -89,3 +89,35 @@
     top: 5px;
     left: 250px;
 }
+
+/* About Me section style */
+.about-me{
+    background-color: var(--clr-bg);
+    border-radius: 10px;
+    padding: 100px;
+}
+.about-content{
+    border: 1px solid var(--clr-heading);
+    background-color: var(--clr-white);
+    padding: 20px;
+    text-align: center;
+}
+.about-text{
+    margin: 30px 0;
+}
+.info-box{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.info-box h4{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    color: var(--clr-text);
+}
+.info-box h3{
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    color: var(--clr-sub-heading);
+}

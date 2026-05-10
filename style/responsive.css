@@ -3,6 +3,9 @@
     html {
         font-size: 12px;
     }
+    .section-gap{
+        margin-top: 65px;
+    }
 
     /* Header style */
     .header {
@@ -39,6 +42,11 @@
 
     .hero-img img {
         position: static;
+    }
+
+    /* About section style */
+    .about-me{
+        padding: 30px;
     }
 }
 

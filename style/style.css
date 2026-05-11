@@ -114,14 +114,14 @@
     justify-content: center;
 }
 
-.info-box h4 {
+.info-title {
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.875rem;
     color: var(--clr-text);
 }
 
-.info-box h3 {
+.info-data {
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.875rem;
@@ -132,7 +132,8 @@
 .what-i-do {
     text-align: center;
 }
-.what-i-do-text{
+
+.what-i-do-text {
     max-width: 900px;
     margin: 30px auto;
 }
@@ -162,4 +163,58 @@
     color: var(--clr-heading);
     margin-top: 30px;
     margin-bottom: 20px;
+}
+
+/* Resume section style */
+.resume {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.resume h3 {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: var(--clr-sub-heading);
+}
+
+.resume .small-text {
+    max-width: 75%;
+}
+
+.resume-detail {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.border {
+    border-top: 1px solid #D1D1D1;
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.resume h4 {
+    font-size: 1.5625rem;
+    font-weight: 700;
+    color: var(--clr-sub-heading);
+}
+
+.org-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--clr-text);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.resume-btn {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.resume-btn img {
+    width: 24px;
+}
+
+.resume-btn a {
+    justify-content: center;
+    gap: 20px;
 }

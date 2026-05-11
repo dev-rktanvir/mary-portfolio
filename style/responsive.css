@@ -3,7 +3,8 @@
     html {
         font-size: 12px;
     }
-    .section-gap{
+
+    .section-gap {
         margin-top: 65px;
     }
 
@@ -45,16 +46,27 @@
     }
 
     /* About section style */
-    .about-me{
+    .about-me {
         padding: 30px;
     }
 
     /* What i do section */
-    .cards{
+    .cards {
         grid-template-columns: repeat(1, 1fr);
     }
-    .card{
+
+    .card {
         text-align: center;
+    }
+
+    /* Resume section style */
+    .resume {
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .resume .small-text {
+        max-width: 95%;
     }
 }
 
@@ -90,8 +102,18 @@
     }
 
     /* What i do section */
-    .cards{
+    .cards {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Resume section style */
+    .resume {
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .resume .small-text {
+        max-width: 85%;
     }
 }
 
@@ -115,7 +137,7 @@
     }
 
     /* What i do section */
-    .cards{
+    .cards {
         grid-template-columns: repeat(3, 1fr);
     }
 }

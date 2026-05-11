@@ -68,6 +68,24 @@
     .resume .small-text {
         max-width: 95%;
     }
+
+    /* Footer style */
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content {
+        gap: 60px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .connect,
+    .message {
+        width: 100%;
+    }
 }
 
 /* Responsive for Medium devices */
@@ -115,6 +133,24 @@
     .resume .small-text {
         max-width: 85%;
     }
+
+    /* Footer style */
+    .footer {
+        padding: 50px;
+    }
+
+    .footer-content {
+        gap: 60px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .connect,
+    .message {
+        width: 100%;
+    }
 }
 
 /* Responsive for large devices */
@@ -139,5 +175,14 @@
     /* What i do section */
     .cards {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Footer style */
+    .footer {
+        padding: 100px;
+    }
+
+    .footer-content {
+        gap: 60px;
     }
 }
